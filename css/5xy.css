@@ -135,6 +135,14 @@ h4 {
   border-top: 1px solid #bad3ff;
 }
 
+@media (max-width: 769px) {
+	
+	#get-started span, .continue-button a span {
+		display: block
+	}
+	
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
